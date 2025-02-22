@@ -24,7 +24,6 @@ class Utils:
             json.dump(data, f, indent=4)
 
     @staticmethod
-    def clear_old_convert(file_path: str) -> None:
-        print("Clear old convert data")
-        if os.path.exists(file_path):
-            shutil.rmtree(file_path, True)  
+    def clear_old_convert(*paths):
+        for path in paths:
+            shutil.rmtree(path, ignore_errors=True) if os.path.exists(path) else None

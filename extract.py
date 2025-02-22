@@ -5,7 +5,7 @@ import os
 import requests
 import zipfile
 
-Utils.clear_old_convert("pack")
+Utils.clear_old_convert("pack", "output")
 
 if os.path.exists(".env"):
     import dotenv

@@ -67,4 +67,4 @@ python extract.py
     <img src="https://qu.ax/aQhRh.jpeg" width="400"><br>
   </p>
 
-4. Complete the setup by following this guide [Install the Pack into Geyser](https://furnacetool.xyz/docs/convert/how_to_convert/#step-3-install-the-pack-into-geyser)
+4. Complete the setup by following this guide [Install the Pack into Geyser](https://furnacetool.github.io/docs/convert/how_to_convert/#step-3-install-the-pack-into-geyser)
